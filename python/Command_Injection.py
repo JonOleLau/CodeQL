@@ -1,13 +1,29 @@
 import os
-from flask import Flask, request
+import tkinter as tk
 
-app = Flask(__name__)
+class Application(tk.Frame):
+    def __init__(self, master=None):
+        super().__init__(master)
+        self.master = master
+        self.pack()
+        self.create_widgets()
 
-@app.route('/run_command', methods=['GET'])
-def run_command():
-    command = request.args.get('command')
-    output = os.popen(command).read()
-    return output
+    def create_widgets(self):
+        self.command_label = tk.Label(self, text="Enter command:")
+        self.command_label.pack()
+        self.command_entry = tk.Entry(self)
+        self.command_entry.pack()
+        self.run_button = tk.Button(self, text="Run", command=self.run_command)
+        self.run_button.pack()
+        self.output_text = tk.Text(self, height=10, width=50)
+        self.output_text.pack()
 
-if __name__ == '__main__':
-    app.run(debug=True)
+    def run_command(self):
+        command = self.command_entry.get()
+        output = os.popen(command).read()
+        self.output_text.delete("1.0", "end")
+        self.output_text.insert("1.0", output)
+
+root = tk.Tk()
+app = Application(master=root)
+app.mainloop()
