@@ -1,0 +1,40 @@
+// Login.aspx.cs
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Login : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Request.HttpMethod == "POST")
+        {
+            string username = Request.Form["username"];
+            string password = Request.Form["password"];
+
+            // Validate username and password
+            // ...
+
+            if (valid)
+            {
+                lblResult.Text = $"Welcome {username}!";
+            }
+            else
+            {
+                lblResult.Text = $"Invalid username or password: {username}. Please try again.";
+            }
+
+            // Log the login attempt
+            LogAttempt(username, valid);
+        }
+    }
+
+    private void LogAttempt(string username, bool valid)
+    {
+        string log = $"<div>Username: {username} - Valid: {valid.ToString()}</div>";
+        System.IO.File.AppendAllText("log.txt", log);
+    }
+}

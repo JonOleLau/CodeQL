@@ -1,0 +1,77 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SSRF",
+            "request": "launch",
+            "mainClass": "SSRF",
+            "projectName": "CodeQL_1e5f7b5d"
+        },
+        {
+            "type": "java",
+            "name": "Remote_code",
+            "request": "launch",
+            "mainClass": "Remote_code",
+            "projectName": "CodeQL_1e5f7b5d"
+        },
+        {
+            "type": "java",
+            "name": "CSRF2",
+            "request": "launch",
+            "mainClass": "CSRF2",
+            "projectName": "CodeQL_1e5f7b5d"
+        },
+        {
+            "type": "java",
+            "name": "XSS2",
+            "request": "launch",
+            "mainClass": "XSS2",
+            "projectName": "CodeQL_1e5f7b5d"
+        },
+        {
+            "type": "java",
+            "name": "XSS",
+            "request": "launch",
+            "mainClass": "XSS",
+            "projectName": "CodeQL_1e5f7b5d"
+        },
+        {
+            "type": "java",
+            "name": "SQL_Injection2",
+            "request": "launch",
+            "mainClass": "SQL_Injection2",
+            "projectName": "CodeQL_1e5f7b5d"
+        },
+        {
+            "type": "java",
+            "name": "SQL_Injection",
+            "request": "launch",
+            "mainClass": "SQL_Injection",
+            "projectName": "CodeQL_1e5f7b5d"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "CodeQL_1e5f7b5d"
+        },
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/csharp-dotnet/bin/Debug/net7.0-windows/csharp-dotnet.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/csharp-dotnet",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}
