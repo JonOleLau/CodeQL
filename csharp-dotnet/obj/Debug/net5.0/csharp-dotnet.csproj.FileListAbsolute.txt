@@ -1,5 +1,0 @@
-C:\Koding\CodeQL\csharp-dotnet\obj\Debug\net5.0\csharp-dotnet.csproj.AssemblyReference.cache
-C:\Koding\CodeQL\csharp-dotnet\obj\Debug\net5.0\csharp-dotnet.GeneratedMSBuildEditorConfig.editorconfig
-C:\Koding\CodeQL\csharp-dotnet\obj\Debug\net5.0\csharp-dotnet.AssemblyInfoInputs.cache
-C:\Koding\CodeQL\csharp-dotnet\obj\Debug\net5.0\csharp-dotnet.AssemblyInfo.cs
-C:\Koding\CodeQL\csharp-dotnet\obj\Debug\net5.0\csharp-dotnet.csproj.CoreCompileInputs.cache

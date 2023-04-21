@@ -11,5 +11,10 @@ def submit():
     message = request.form["message"]
     return render_template("output.html", message=message)
 
+@app.route("/feedback")
+def feedback():
+    feedback_text = request.args.get("feedback")
+    return f"<h1>Feedback Received:</h1><p>{feedback_text}</p>"
+
 if __name__ == "__main__":
     app.run(debug=True)
