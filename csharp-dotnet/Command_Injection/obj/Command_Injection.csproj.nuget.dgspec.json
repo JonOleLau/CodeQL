@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Koding\\csharp-dotnet\\Command_Injection\\Command_Injection.csproj": {}
+    "C:\\Koding\\CodeQL\\csharp-dotnet\\Command_Injection\\Command_Injection.csproj": {}
   },
   "projects": {
-    "C:\\Koding\\csharp-dotnet\\Command_Injection\\Command_Injection.csproj": {
+    "C:\\Koding\\CodeQL\\csharp-dotnet\\Command_Injection\\Command_Injection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Koding\\csharp-dotnet\\Command_Injection\\Command_Injection.csproj",
+        "projectUniqueName": "C:\\Koding\\CodeQL\\csharp-dotnet\\Command_Injection\\Command_Injection.csproj",
         "projectName": "Command_Injection",
-        "projectPath": "C:\\Koding\\csharp-dotnet\\Command_Injection\\Command_Injection.csproj",
+        "projectPath": "C:\\Koding\\CodeQL\\csharp-dotnet\\Command_Injection\\Command_Injection.csproj",
         "packagesPath": "C:\\Users\\oleme\\.nuget\\packages\\",
-        "outputPath": "C:\\Koding\\csharp-dotnet\\Command_Injection\\obj\\",
+        "outputPath": "C:\\Koding\\CodeQL\\csharp-dotnet\\Command_Injection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oleme\\AppData\\Roaming\\NuGet\\NuGet.Config"

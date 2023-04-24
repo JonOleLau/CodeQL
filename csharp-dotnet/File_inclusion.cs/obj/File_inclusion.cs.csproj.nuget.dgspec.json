@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Koding\\csharp-dotnet\\File_inclusion.cs\\File_inclusion.cs.csproj": {}
+    "C:\\Koding\\CodeQL\\csharp-dotnet\\File_inclusion.cs\\File_inclusion.cs.csproj": {}
   },
   "projects": {
-    "C:\\Koding\\csharp-dotnet\\File_inclusion.cs\\File_inclusion.cs.csproj": {
+    "C:\\Koding\\CodeQL\\csharp-dotnet\\File_inclusion.cs\\File_inclusion.cs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Koding\\csharp-dotnet\\File_inclusion.cs\\File_inclusion.cs.csproj",
+        "projectUniqueName": "C:\\Koding\\CodeQL\\csharp-dotnet\\File_inclusion.cs\\File_inclusion.cs.csproj",
         "projectName": "File_inclusion.cs",
-        "projectPath": "C:\\Koding\\csharp-dotnet\\File_inclusion.cs\\File_inclusion.cs.csproj",
+        "projectPath": "C:\\Koding\\CodeQL\\csharp-dotnet\\File_inclusion.cs\\File_inclusion.cs.csproj",
         "packagesPath": "C:\\Users\\oleme\\.nuget\\packages\\",
-        "outputPath": "C:\\Koding\\csharp-dotnet\\File_inclusion.cs\\obj\\",
+        "outputPath": "C:\\Koding\\CodeQL\\csharp-dotnet\\File_inclusion.cs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oleme\\AppData\\Roaming\\NuGet\\NuGet.Config"

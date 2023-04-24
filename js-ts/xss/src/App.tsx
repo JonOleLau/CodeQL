@@ -31,8 +31,9 @@ class Application extends React.Component<{}, AppState> {
 
         <h2>Vulnerability 3: Unsafe InnerHTML Assignment</h2>
         <div id="image"></div>
+        <input id="imageInput" type="text" />
         <button onClick={this.displayImage}>Display Image</button>
-      </div>
+    </div>
     );
   }
 
